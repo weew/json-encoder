@@ -10,7 +10,7 @@
          syntaxCheck="false"
          bootstrap="tests/bootstrap.php">
     <testsuites>
-        <testsuite name="php-json-encoder">
+        <testsuite name="json-encoder">
             <directory>./tests</directory>
         </testsuite>
     </testsuites>

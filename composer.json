@@ -1,5 +1,5 @@
 {
-    "name": "weew/php-json-encoder",
+    "name": "weew/json-encoder",
     "description": "JSON encoding and decoding library.",
     "license": "MIT",
     "authors": [
@@ -19,8 +19,8 @@
         }
     },
     "require": {
-        "weew/php-contracts": "^1.1",
-        "weew/php-helpers-string": "^1.1"
+        "weew/contracts": "^1.1",
+        "weew/helpers-string": "^1.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^4.7",

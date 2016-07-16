@@ -1,10 +1,10 @@
 # JSON encoding & decoding library
 
-[![Build Status](https://img.shields.io/travis/weew/php-json-encoder.svg)](https://travis-ci.org/weew/php-json-encoder)
-[![Code Quality](https://img.shields.io/scrutinizer/g/weew/php-json-encoder.svg)](https://scrutinizer-ci.com/g/weew/php-json-encoder)
-[![Test Coverage](https://img.shields.io/coveralls/weew/php-json-encoder.svg)](https://coveralls.io/github/weew/php-json-encoder)
-[![Version](https://img.shields.io/packagist/v/weew/php-json-encoder.svg)](https://packagist.org/packages/weew/php-json-encoder)
-[![Licence](https://img.shields.io/packagist/l/weew/php-json-encoder.svg)](https://packagist.org/packages/weew/php-json-encoder)
+[![Build Status](https://img.shields.io/travis/weew/json-encoder.svg)](https://travis-ci.org/weew/json-encoder)
+[![Code Quality](https://img.shields.io/scrutinizer/g/weew/json-encoder.svg)](https://scrutinizer-ci.com/g/weew/json-encoder)
+[![Test Coverage](https://img.shields.io/coveralls/weew/json-encoder.svg)](https://coveralls.io/github/weew/json-encoder)
+[![Version](https://img.shields.io/packagist/v/weew/json-encoder.svg)](https://packagist.org/packages/weew/json-encoder)
+[![Licence](https://img.shields.io/packagist/l/weew/json-encoder.svg)](https://packagist.org/packages/weew/json-encoder)
 
 ## Table of contents
 
@@ -14,7 +14,7 @@
 
 ## Installation
 
-`composer require weew/php-json-encoder`
+`composer require weew/json-encoder`
 
 ## Introduction
 
