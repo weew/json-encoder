@@ -72,4 +72,15 @@ class JsonEncoderTest extends PHPUnit_Framework_TestCase {
         $encoder = new JsonEncoder();
         $this->assertEquals(null, $encoder->decode(null));
     }
+
+    public function test_encode_empty_string() {
+        $encoder = new JsonEncoder();
+        $this->setExpectedException(InvalidDataTypeException::class);
+        $encoder->encode('');
+    }
+
+    public function test_decode_empty_string() {
+        $encoder = new JsonEncoder();
+        $this->assertEquals(null, $encoder->decode(''));
+    }
 }
