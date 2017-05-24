@@ -49,6 +49,10 @@ class JsonEncoder implements IJsonEncoder {
      * @throws JsonDecodeException
      */
     function decode($json, $assoc = true, $depth = 512, $options = 0) {
+        if (array_contains(['', null], $json)) {
+            return null;
+        }
+
         $data = @json_decode($json, $assoc, $depth, $options);
         
         if ($data === null && json_last_error() !== JSON_ERROR_NONE) {
